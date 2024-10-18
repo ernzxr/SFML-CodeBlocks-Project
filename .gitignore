@@ -1,23 +1,31 @@
-# Ignorar archivos generados durante la compilación
+# Prerequisites
 *.d
+
+# Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-*.exe
-*.out
-*.app
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
 *.so
 *.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
 
-# Ignorar precompiled headers
-*.gch
-*.pch
-
-# Ignorar Fortran module files
-*.mod
-*.smod
+# Executables
+*.exe
+*.out
+*.app
